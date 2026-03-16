@@ -3,7 +3,7 @@ from dash import html, dcc
 import dash_bootstrap_components as dbc
 from pathlib import Path
 
-dash.register_page(__name__, path="/markdown", name="Présentation de Dash")
+dash.register_page(__name__, path="/markdown", name="Aide en ligne")
 
 base_path = Path(__file__).parent.parent / "assets"
 
