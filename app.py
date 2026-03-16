@@ -18,6 +18,7 @@ app.layout = dbc.Container([
 ], fluid=True)
 
 import pages.table_cb 
+import pages.comparaison_cb
 
 if __name__ == "__main__":
     app.run(debug=True)
